@@ -77,3 +77,13 @@ h1{
 .information_message{
   font-size: 12px;
 }
+
+form{
+  padding-top: 20px;
+  text-align: center;
+}
+
+h2{
+  margin-bottom: 20px;;
+  text-align: center;
+}
