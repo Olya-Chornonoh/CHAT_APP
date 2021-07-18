@@ -13,7 +13,7 @@ h1{
 
 .chat{
   background-color: #DCDCDC;
-  width: 1500px;
+  width: 100%;
   height: 470px;
 }
 
@@ -23,7 +23,7 @@ h1{
 }
 
 .text{
-  width: 1000px;
+  flex-grow: 1;
 }
 
 .settings{
