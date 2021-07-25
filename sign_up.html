@@ -4,6 +4,7 @@
 <head>
   <meta http-equiv="Content-type" content="text/html" charset="utf-8">
   <link rel="stylesheet" href="/style/style.css">
+  <script src="/js/sign_up.js"></script>
 </head>
 
 <body>
@@ -11,25 +12,22 @@
     <h2 class="name_site">Zoo chat</h2>
   </header>
   <h2>Sign Up</h2>
-  <form action="/">
+  <form name="person" id="person">
     <div class="sign_up_form">
       <div class="login">
         <h3>Enter your login</h3>
-        <input type="text">
+        <input type="text" name="username">
       </div>
-      <div class="mail">
-        <h3>Enter your email</h3>
-        <input type="email">
-      </div>
-      <div class="pswd">
+      <div class="password">
         <h3>enter password</h3>
-        <input type="password">
+        <input type="password" name="password">
       </div>
     </div>
     <div class="sign_up_form">
       <input type="submit">
     </div>
   </form>
+  <div class="error"></div>
 </body>
 
 </html>

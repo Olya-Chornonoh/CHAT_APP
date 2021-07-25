@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-type" content="text/html" charset="utf-8">
+  <link rel="stylesheet" href="/style/style.css">
+  <script src="/js/users.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="name">
+      <h1>Zoo chat</h1>
+    </div>
+    <div class="time">
+      <p>You are online for:</p>
+      <p>Your local time is: </p>
+    </div>
+    <div class="buttons">
+      <a class="edit_user_inf"><button>Settings</button></a>
+      <a class="logout"><button>Logout</button></a>
+    </div>
+  </header>
+  <div id="users" class="users">
+  </div>
+  <div class="chat">
+    <div class="tab">
+      <div id="main" class="tabcontent">
+        <button class="tablinks">Main chat</button>
+      </div>
+    </div>
+    <div class="text_message"></div>
+  </div>
+  <div class="message">
+    <input class="text" type="text" id="text_message">
+    <input class="send_message" type="submit" value="Send message" id="send_message">
+    <div class="settings">
+      <button class="b">B</button>
+      <button class="i">I</button>
+      <button class="u">U</button>
+    </div>
+  </div>
+  <div class="information_message">
+    <p>characters entered:</p>
+    <p>letters entered:</p>
+    <p>whitespace characters entered:</p>
+    <p>punctuation marks entered:</p>
+  </div>
+</body>
+</html>

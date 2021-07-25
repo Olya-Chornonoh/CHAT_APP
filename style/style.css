@@ -40,6 +40,7 @@ h1{
   background-color: #ADD8E6;
   width: 250px;
   height: 500px;
+  overflow: auto;
 }
 
 .tab {
@@ -86,4 +87,13 @@ form{
 h2{
   margin-bottom: 20px;;
   text-align: center;
+}
+
+.user{
+  cursor: pointer;
+}
+
+.user:hover{
+  background-color: #245b6b;
+  color: #fff;
 }
