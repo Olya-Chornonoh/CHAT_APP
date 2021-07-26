@@ -8,7 +8,7 @@ float: top;
 }
 
 h1{
-  float: right;
+  text-align: center;
 }
 
 .chat{
@@ -80,7 +80,7 @@ h1{
 }
 
 form{
-  padding-top: 20px;
+  padding-top: 5px;
   text-align: center;
 }
 

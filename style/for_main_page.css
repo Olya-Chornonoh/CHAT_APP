@@ -1,0 +1,17 @@
+* {
+  background-color: #c0dbe4;
+}
+
+header{
+  margin-top: 30vh;
+  text-align: center;
+  font-size: 50px;
+}
+
+button{
+  background-color: rgb(201, 201, 201);
+  border: none;
+  padding: 15px 32px;
+  font-size: 20px;
+  text-align: center;
+}

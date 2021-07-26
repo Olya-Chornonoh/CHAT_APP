@@ -1,0 +1,15 @@
+*{
+  align-items: center;
+  background-color: #c0dbe4;
+}
+
+input{
+  background-color: #fff;
+  margin: 10px;
+  font-size: 15px;
+  size: 10px;
+}
+
+h1{
+  margin-top: 15vh;
+}
