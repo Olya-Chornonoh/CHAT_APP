@@ -97,3 +97,20 @@ h2{
   background-color: #245b6b;
   color: #fff;
 }
+
+.text_messages{
+  height: 423px;
+  width: 640px;
+  float: right;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.get_message {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.description {
+  grid-column: span 2;
+}

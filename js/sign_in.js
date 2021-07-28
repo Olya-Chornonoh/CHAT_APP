@@ -26,6 +26,7 @@ function handleFormSubmit(event) {
     .then((result) => {
       if (Array.isArray(result)) {
         console.log(result);
+        localStorage.setItem('username', formData.get('username'));
         window.location = '/chat.html';
       } else{
       const errorBlock = document.getElementById('error');
