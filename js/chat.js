@@ -1,4 +1,5 @@
 const username = localStorage.getItem('username');
+const MESSAGE_URL = "https://studentschat.herokuapp.com/messages";
 
 function getUsers() {
   const requestOptions = {
@@ -40,7 +41,7 @@ function sendMessage(text) {
     redirect: 'follow'
   };
 
-  return fetch("https://studentschat.herokuapp.com/messages", requestOptions)
+  return fetch(MESSAGE_URL, requestOptions)
     .then(response => response.json());
 }
 
@@ -48,7 +49,7 @@ function getMessages(){
   const requestOptions = {
     method: 'GET'
   };
-  fetch("https://studentschat.herokuapp.com/messages", requestOptions)
+  fetch(MESSAGE_URL, requestOptions)
   .then(response => response.json())
   .then(result => {
     const messages = document.getElementById("text_messages");
